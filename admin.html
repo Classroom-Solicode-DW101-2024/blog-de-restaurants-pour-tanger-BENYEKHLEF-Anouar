@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eat Now Management</title>
+    <link rel="icon" href="./img/logo.png" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+
+    <header class="second-header">
+        <nav class="second-navbar">
+            <img class="logo" src="./img/logo.png" alt="logo">
+            <ul class="nav-links">
+                <li><a href="index.html"><i class="fa-solid fa-house" style="color: #F25923;"></i>&nbsp
+                        <span>Home</span></a></li>
+                <li><a href=""><i class="fa-solid fa-magnifying-glass" style="color: #F25923;"></i>&nbsp <span>Advanced
+                            Search</span></a></li>
+                &nbsp<li class="active"><a href="admin.html"><i class="fa-solid fa-user-tie"
+                            style="color: #F25923;"></i>&nbsp
+                        <span>Admin</span></a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <h1 class="admin-title1">Admin Dashboard</h1>
+
+    <div class="search-container3-wrapper">
+        <div class="search-container3">
+            <select id="searchCriteria3">
+                <option value="all">All</option>
+                <option value="name">Name</option>
+                <option value="specialty">Specialty</option>
+            </select>
+            <input type="text" id="searchInput3" placeholder="Search Restaurants...">
+            <button id="searchBtn3"><i class="fa-solid fa-magnifying-glass"></i> Search</button>
+            <button id="clearBtn3"><i class="fa-regular fa-circle-xmark"></i> Clear</button>
+        </div>
+    </div>
+
+    <button id="addBtn" onclick="openModal()"><i class="fa-solid fa-plus" style="color: white;"></i> Add A
+        Restaurant</button>
+
+    <div id="addRestaurantModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <h2>Add New Restaurant</h2>
+            <form id="addRestaurantForm">
+                <label for="restaurantName">Restaurant Name:</label>
+                <input type="text" id="restaurantName" placeholder="Enter restaurant name" required>
+
+                <label for="restaurantAddress">Address:</label>
+                <input type="text" id="restaurantAddress" placeholder="Enter restaurant address" required>
+
+                <label for="restaurantCover">Cover Image URL:</label>
+                <input type="text" id="restaurantCover" placeholder="Enter cover image URL" required>
+
+                <label for="restaurantSpecialty">Specialty:</label>
+                <input type="text" id="restaurantSpecialty" placeholder="Enter specialty" required>
+
+                <label for="restaurantRating">Rating:</label>
+                <input type="number" id="restaurantRating" placeholder="Enter rating (1-5)" step="0.1" min="1" max="5"
+                    required>
+
+                <label for="restaurantReviews">Reviews:</label>
+                <textarea id="restaurantReview" placeholder="Enter review" required></textarea>
+                <textarea id="restaurantReview" placeholder="Enter review" required></textarea>
+
+                <label for="restaurantSite">Website:</label>
+                <input type="text" id="restaurantSite" placeholder="Enter website URL">
+
+                <label for="restaurantTel">Phone Number:</label>
+                <input type="tel" id="restaurantTel" placeholder="Enter phone number" pattern="^\+212\d{9}$" required>
+
+                <label for="restaurantEmail">Email (optional):</label>
+                <input type="email" id="restaurantEmail" placeholder="Enter email">
+
+                <button type="submit"><i class="fa-solid fa-plus" style="color: white;"></i> Add Restaurant</button>
+            </form>
+        </div>
+    </div>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Image</th>
+                <th>Restaurant Name</th>
+                <th>Specialty</th>
+                <th>Rating</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody id="restaurantList">
+
+        </tbody>
+    </table>
+
+    <div id="editRestaurantModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeEditModal()">&times;</span>
+            <h2>Edit Restaurant</h2>
+            <form id="editRestaurantForm">
+                <label for="editRestaurantName">Restaurant Name:</label>
+                <input type="text" id="editRestaurantName" required>
+
+                <label for="editRestaurantAddress">Address:</label>
+                <input type="text" id="editRestaurantAddress" required>
+
+                <label for="editRestaurantCover">Cover Image URL:</label>
+                <input type="text" id="editRestaurantCover" required>
+
+                <label for="editRestaurantSpecialty">Specialty:</label>
+                <input type="text" id="editRestaurantSpecialty" required>
+
+                <label for="editRestaurantRating">Rating:</label>
+                <input type="number" id="editRestaurantRating" step="0.1" min="1" max="5" required>
+
+                <label for="editRestaurantReview">Reviews:</label>
+                <textarea id="editRestaurantReview" required></textarea>
+
+                <label for="editRestaurantSite">Website:</label>
+                <input type="text" id="editRestaurantSite">
+
+                <label for="editRestaurantTel">Phone Number:</label>
+                <input type="tel" id="editRestaurantTel" pattern="^\+212\d{9}$" required>
+
+                <label for="editRestaurantEmail">Email (optional):</label>
+                <input type="email" id="editRestaurantEmail">
+
+                <button type="submit"><i class="fa-solid fa-save" style="color: white;"></i> Save Changes</button>
+            </form>
+        </div>
+    </div>
+
+    
+
+    <script src="admin.js"></script>
+</body>
+
+</html>

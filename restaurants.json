@@ -1,0 +1,290 @@
+[
+  {
+    "name": "La Maison Blanche",
+    "address": "Rue de la Kasbah, Tangier",
+    "cover": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/06/3e/b2/4e/la-maison-blanche.jpg?w=1200&h=-1&s=1",
+    "specialty": "Moroccan Cuisine",
+    "rating": 4.8,
+    "reviews": [
+      {
+        "avis": "The food is exquisite, and the view is breathtaking."
+      },
+      {
+        "avis": "Exceptional service and delicious tajines."
+      }
+    ],
+    "site": "http://www.lamaisonblanchetanger.com/",
+    "tel": "+212539331234",
+    "email": "contact@lamaisonblanchetanger.com"
+  },
+  {
+    "name": "El Tangerino",
+    "address": "Ave Mohamed VI, Tangier",
+    "cover": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/18/52/bc/17/le-maroc-un-territoire.jpg?w=1400&h=-1&s=1",
+    "specialty": "Seafood and Spanish Cuisine",
+    "rating": 4.6,
+    "reviews": [
+      {
+        "avis": "The paella is out of this world!"
+      },
+      {
+        "avis": "Beautiful setting by the beach."
+      }
+    ],
+    "site": "https://tangerino-restaurant.com/",
+    "tel": "+212539321122",
+    "email": "info@tangerino-restaurant.com"
+  },
+  {
+    "name": "Le Saveur du Poisson",
+    "address": "Rue Amrah, Tangier",
+    "cover": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/16/16/f1/b6/la-sala.jpg?w=700&h=-1&s=1",
+    "specialty": "Seafood",
+    "rating": 4.7,
+    "reviews": [
+      {
+        "avis": "Fresh fish cooked to perfection."
+      },
+      {
+        "avis": "The best fish restaurant in Tangier."
+      }
+    ],
+    "site": "#",
+    "tel": "+212539334567",
+    "email": "info@lesaveurdupoisson.com"
+  },
+  {
+    "name": "Restaurant Hamadi",
+    "address": "Rue Al Moutanabi, Tangier",
+    "cover": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/19/e7/1d/2a/photo1jpg.jpg?w=1400&h=800&s=1",
+    "specialty": "Traditional Moroccan",
+    "rating": 4.4,
+    "reviews": [
+      {
+        "avis": "Great traditional Moroccan experience."
+      },
+      {
+        "avis": "Delicious couscous and friendly staff."
+      }
+    ],
+    "site": "#",
+    "tel": "+212539345678",
+    "email": "contact@restauranthamadi.com"
+  },
+  {
+    "name": "Le Mirage",
+    "address": "Cap Spartel, Tangier",
+    "cover": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/13/81/ed/11/photo4jpg.jpg?w=1400&h=-1&s=1",
+    "specialty": "International and Moroccan Fusion",
+    "rating": 4.9,
+    "reviews": [
+      {
+        "avis": "Luxurious dining with stunning ocean views."
+      },
+      {
+        "avis": "Amazing fusion dishes and impeccable service."
+      }
+    ],
+    "site": "https://lemirage.com/",
+    "tel": "+212539378901",
+    "email": "contact@lemirage.com"
+  },
+  {
+    "name": "Dar Lidam",
+    "address": "Place du 9 Avril, Tangier",
+    "cover": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0c/ed/7f/48/2nd-floor.jpg?w=1800&h=1000&s=1",
+    "specialty": "Moroccan Fine Dining",
+    "rating": 4.6,
+    "reviews": [
+      {
+        "avis": "Elegant Moroccan dishes in a historic setting."
+      },
+      {
+        "avis": "Highly recommend the lamb tagine."
+      }
+    ],
+    "site": "https://darlidam.com",
+    "tel": "+212539367890",
+    "email": "info@darlidam.com"
+  },
+  {
+    "name": "Chellah Beach Club",
+    "address": "Plage Municipale, Tangier",
+    "cover": " https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0b/5c/32/50/reveillon-au-chellah.jpg?w=2000&h=-1&s=1",
+    "specialty": "Seafood and Grills",
+    "rating": 4.5,
+    "reviews": [
+      {
+        "avis": "Relaxed vibe with amazing grilled fish."
+      },
+      {
+        "avis": "Perfect spot for a family meal by the sea."
+      }
+    ],
+    "site": "#",
+    "tel": "+212539314578",
+    "email": "contact@chellahbeachclub.com"
+  },
+  {
+    "name": "Le Cap Spartel",
+    "address": "Route de Cap Spartel, Tangier",
+    "cover": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1b/0d/4f/c4/ristorante.jpg?w=1400&h=-1&s=1",
+    "specialty": "Moroccan and Mediterranean Cuisine",
+    "rating": 4.7,
+    "reviews": [
+      {
+        "avis": "Breathtaking views with authentic Moroccan flavors."
+      },
+      {
+        "avis": "Perfect place for a romantic dinner."
+      }
+    ],
+    "site": "https://www.caferesto-capspartel.com/",
+    "tel": "+212539398822",
+    "email": "info@caferesto-capspartel.com"
+  },
+  {
+    "name": "Café Hafa",
+    "address": "Rue Hafa, Tangier",
+    "cover": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2c/23/e4/2c/caption.jpg?w=1100&h=-1&s=1",
+    "specialty": "Moroccan Tea and Light Bites",
+    "rating": 4.3,
+    "reviews": [
+      {
+        "avis": "Iconic spot with incredible ocean views."
+      },
+      {
+        "avis": "Perfect for relaxing with mint tea."
+      }
+    ],
+    "site": "#",
+    "tel": "+212539387766",
+    "email": "contact@cafehafa.com"
+  },
+  {
+    "name": "Al Maimouni",
+    "address": "Avenue Moulay Rachid, Tangier",
+    "cover": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2b/4f/29/e9/caption.jpg?w=1400&h=-1&s=1",
+    "specialty": "Moroccan Cuisine",
+    "rating": 4.5,
+    "reviews": [
+      {
+        "avis": "The bastilla here is phenomenal!"
+      },
+      {
+        "avis": "Great place for traditional Moroccan food."
+      }
+    ],
+    "site": "#",
+    "tel": "+212539348899",
+    "email": "info@almaimouni.com"
+  },
+  {
+    "name": "Chez Abdou",
+    "address": "Route de Achakkar, Tangier",
+    "cover": "https://media-cdn.tripadvisor.com/media/photo-s/12/4f/85/65/photo0jpg.jpg",
+    "specialty": "Grilled Seafood",
+    "rating": 4.8,
+    "reviews": [
+      {
+        "avis": "Amazing grilled sardines and fresh seafood."
+      },
+      {
+        "avis": "Authentic and friendly local experience."
+      }
+    ],
+    "site": "#",
+    "tel": "+212539354477",
+    "email": "contact@chezabdou.com"
+  },
+  {
+    "name": "Restaurant L'Ocean",
+    "address": "Sidi Kacem Beach, Tangier",
+    "cover": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2e/05/1e/c3/caption.jpg?w=1400&h=-1&s=1",
+    "specialty": "Seafood and Mediterranean Cuisine",
+    "rating": 4.7,
+    "reviews": [
+      {
+        "avis": "Fantastic location right by the ocean."
+      },
+      {
+        "avis": "Fresh seafood and a peaceful atmosphere."
+      }
+    ],
+    "site": "#",
+    "tel": "+212539334455",
+    "email": "contact@restaurantlocean.com"
+  },
+  {
+    "name": "Casa d'Italia",
+    "address": "Rue du Prince Héritier, Tangier",
+    "cover": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/4b/a8/c8/sala-del-restaurante.jpg?w=1400&h=-1&s=1",
+    "specialty": "Authentic Italian Cuisine",
+    "rating": 4.7,
+    "reviews": [
+      {
+        "avis": "One of the best Italian restaurants in Tangier."
+      },
+      {
+        "avis": "Delicious homemade pasta and tiramisu."
+      }
+    ],
+    "site": "#",
+    "tel": "+212539355599",
+    "email": "info@casaditalia.com"
+  },
+  {
+    "name": "Riad Tanja",
+    "address": "Rue Riad Sultan, Medina, Tangier",
+    "cover": "https://cf.bstatic.com/xdata/images/hotel/max1280x900/504688231.jpg?k=4d016bbe38987da88a045ffa20e231cd3a22217eeed66ea7d7c7d53a26af42e9&o=&hp=1",
+    "specialty": "Moroccan Fine Dining",
+    "rating": 4.8,
+    "reviews": [
+      {
+        "avis": "Beautiful ambiance in the heart of the Medina."
+      },
+      {
+        "avis": "Fantastic couscous and live traditional music."
+      }
+    ],
+    "site": "http://www.riadtanja.com/",
+    "tel": "+212539334969",
+    "email": "info@riadtanja.com"
+  },
+  {
+    "name": "Restaurant Al Andalus",
+    "address": "Rue de la Kasbah, Tangier",
+    "cover": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/25/39/43/6b/the-new-terrace-at-riad.jpg?w=1400&h=-1&s=1",
+    "specialty": "Moroccan and Andalusian Cuisine",
+    "rating": 4.6,
+    "reviews": [
+      {
+        "avis": "Traditional Moroccan dishes with an Andalusian twist."
+      },
+      {
+        "avis": "A must-try for lovers of both Moroccan and Spanish cuisines."
+      }
+    ],
+    "site": "#",
+    "tel": "+212539339988",
+    "email": "info@restaurantalandalus.com"
+  },
+  {
+    "name": "Tangier Bay",
+    "address": "Rue de la Mer, Tangier",
+    "cover": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/19/6e/eb/de/view.jpg?w=1100&h=600&s=1",
+    "specialty": "Seafood and Mediterranean Cuisine",
+    "rating": 4.7,
+    "reviews": [
+      {
+        "avis": "Delicious seafood with a beautiful view of the bay."
+      },
+      {
+        "avis": "Great seafood platters and a relaxing atmosphere."
+      }
+    ],
+    "site": "#",
+    "tel": "+212539363466",
+    "email": "info@tangierbay.com"
+  }
+]

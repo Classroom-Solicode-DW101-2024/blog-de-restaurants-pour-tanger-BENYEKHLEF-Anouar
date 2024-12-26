@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eat Now</title>
+    <link rel="icon" href="./img/logo.png" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=ADLaM+Display&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Manrope:wght@200..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar">
+            <img class="logo" src="./img/logo.png" alt="logo">
+            <ul class="nav-links">
+                <li class="active"><a href="index.html"><i class="fa-solid fa-house" style="color: #F25923;"></i>&nbsp
+                        <span>Home</span></a></li>
+                <li><a href=""><i class="fa-solid fa-magnifying-glass" style="color: #F25923;"></i>&nbsp <span>Advanced
+                            Search</span></a></li>
+                &nbsp<li><a href="admin.html"><i class="fa-solid fa-user-tie" style="color: #F25923;"></i>&nbsp
+                        <span>Admin</span></a>
+                </li>
+            </ul>
+        </nav>
+
+        <div class="search-container">
+            <select id="searchCriteria">
+                <option value="all"> All </option>
+                <option value="name"> Name </option>
+                <option value="specialty"> Specialty </option>
+            </select>
+            <input type="text" id="searchInput" placeholder="   Search Restaurants...">
+            <button id="searchBtn"><i class="fa-solid fa-magnifying-glass"></i> Search</button>
+            <button id="clearBtn"><i class="fa-regular fa-circle-xmark"></i> Clear</button>
+        </div>
+
+    </header>
+
+    <section class="notice">
+        <h1>Savor Tangier: A Culinary Journey Through the City’s Best Restaurants</h1>
+
+        <h2>Discover the flavors, ambiance, and hidden gems of Tangier's vibrant dining scene.</h2>
+
+        <a href="">Discover Now</a></li>
+
+    </section>
+
+    <section class="restaurants-container">
+        <h1>Tangier's Best Restaurants</h1>
+        <div id="restaurantsList"></div>
+    </section>
+
+    <section class="hero">
+        <img class="tangier" src="./img/tangier.jpg" alt="Tangier">
+        <h1>Eat Now!</h1>
+        <h2>Tangier's World of Flavors!</h2>
+
+        <img class="hero-logo" src="./img/logo.png" alt="logo">
+
+        <div class="social-icons">
+            <a href="" class="icon" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+            <a href="" class="icon" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            <a href="" class="icon" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="" class="icon" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+        </div>
+
+        <a href="#top" class="upButton"><i class="fa-solid fa-up-long" style="color: white;"></i></a>
+
+    </section>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
